@@ -1,6 +1,6 @@
 # Build Roulette
 
-When properly integrated with CI, you'll never know if this project will pass or not...
+When properly integrated with CI, you'll never know if this project build will pass or not...
 
 ## Getting Started Locally
 

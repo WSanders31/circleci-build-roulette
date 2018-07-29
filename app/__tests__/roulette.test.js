@@ -4,3 +4,9 @@ test('Playing build roulette... did we pass?', () => {
   expect(true).toBe(false);
   //expect(!!roulette.play()).toBe(true);
 });
+
+test('Fail me', () => {
+  expect(true).toBe(false);
+  //expect(!!roulette.play()).toBe(true);
+});
+

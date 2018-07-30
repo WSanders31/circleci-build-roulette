@@ -1,13 +1,13 @@
 const roulette = require("./roulette.js");
 
-var readline = require('readline'),
+const readline = require('readline'),
     rl = readline.createInterface(process.stdin, process.stdout);
 
 rl.setPrompt('Ready to play build roullete?');
 rl.prompt();
 
 rl.on('line', function(line) {
-  var didYouWin = roulette.play();   
+  let didYouWin = roulette.play();   
 
   if(didYouWin) {
       console.log("Green means go!");
